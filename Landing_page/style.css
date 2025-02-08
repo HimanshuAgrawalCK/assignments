@@ -1,0 +1,218 @@
+body{
+    background-image: linear-gradient(#97d393d2 ,#97d393d2),url('images/mountain2.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+#p1{
+    margin: 0.5%;
+    padding: 0%;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#p2{
+    margin: 0.5%;
+    padding: 0%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container{
+    background: linear-gradient(#fafafac9,#fafafac9);
+    /* margin-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 10%; */
+    padding: 2%;
+    height: 35rem;
+    width: 80%;
+}
+
+.nav-head{
+    /* padding: 1%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 80%; */
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav-bar ul{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    gap: 1%;
+    height: 100%;
+}
+
+.main-1{
+    height: 100%;
+    display: flex;  
+    justify-content: end;
+    gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-2{
+    height: 100%;
+    width: 100%;
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-main{
+    display: flex;
+    gap: 5rem;
+    justify-content: end;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hero-main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+    /* flex-direction: column; */
+}
+
+.textt{
+    display: flex;
+    flex-direction: column;
+}
+
+.mountainText{
+    display: flex;
+    gap: 10px;
+    /* flex-direction: column; */
+}
+
+#fa1{
+    font-size: 2.5rem;
+}
+
+
+.hero-text{
+    display: flex;
+    justify-content: end;
+    width: fit-content;
+    /* transform: translateX(-25%); */
+}
+
+.text-1{
+    font-size: 1.5rem;
+    font-family: 'Arial';
+    font-weight: 400;
+    padding-right: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-2{
+    border-left: 3px solid black;
+    padding-left: .5rem;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-getStarted{
+    display: flex;
+    justify-content: end;
+    /* width: 100%; */
+    transform: translateX(45%);
+}
+
+.btn-getStarted button{
+    color: white;
+    font-weight: 800;
+    font-family: 'Arial';
+    padding: 1rem;
+    /* transform: translateX(-25%); */
+    background-color: black;
+}
+
+.logos{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    width: 100%;
+}
+
+.main-image{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+
+}
+
+a:hover{
+text-decoration:underline;
+font-weight:bold;
+}
+
+.main-image img{
+    /* position: absolute; */
+    border-radius: 59% 41% 43% 57% / 52% 41% 57% 48%;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width : 425px) {
+    .nav-head{
+        flex-direction: column;
+    }
+    .nav-bar ul{
+        width: 100%;
+    }
+
+    .nav-bar li {
+        font-size: small;
+    }
+
+    #callus{
+
+        display: flex;
+    }
+    
+    #callus p{
+        padding: 1em;
+        /* display: flex; */
+        font-size: small;
+    }
+}
