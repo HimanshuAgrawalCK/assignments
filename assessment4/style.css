@@ -1,0 +1,65 @@
+/* .done{
+    background-color: white;
+} */
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(210, 210, 210, 0.724);
+}
+
+.head{
+    font-weight: 800;
+    font-size: 20px;
+
+}
+
+#todo-boxx{
+    background-color:blueviolet;
+}
+
+#addTask{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#newTask{
+    border-radius: 10px;
+}
+
+#clearAll{
+    /* display: f; */
+    text-align: end;
+}
+
+li{
+    margin: 0px;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#done{
+    background-color: white;
+    align-items: end;
+}
+
+.clr{
+    display: flex;
+    justify-content: end;
+}
